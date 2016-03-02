@@ -11,9 +11,13 @@ jsDependencies += RuntimeDOM
 
 skip in packageJSDependencies := false
 
-// uTest settings
-libraryDependencies += "com.lihaoyi" %%% "utest" % "0.3.0" % "test"
-testFrameworks += new TestFramework("utest.runner.Framework")
+jsDependencies +=
+  "org.webjars" % "jquery" % "2.1.4" / "2.1.4/jquery.js"
+
+
+libraryDependencies += "org.scalatest" %%% "scalatest" % "3.0.0-M10" % "test"
 
 persistLauncher in Compile := true
+
 persistLauncher in Test := false
+
