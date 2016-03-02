@@ -14,7 +14,7 @@ Prerequisites: Node/NPM
 
 ## Run tests
 
-```karma start karma.conf.js --single-run```
+```./node_modules/karma/bin/karma start karma.conf.js --single-run```
 
 or via IntelliJ's [Karma plugin](https://www.jetbrains.com/idea/help/running-unit-tests-on-karma.html)
 
