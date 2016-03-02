@@ -16,6 +16,9 @@ Prerequisites: Node/NPM
 
 ```karma start karma.conf.js --single-run```
 
+or via IntelliJ's [Karma plugin](https://www.jetbrains.com/idea/help/running-unit-tests-on-karma.html)
+
+![IntelliJ Karma](intellij-karma-screenshot.jpg?raw=true)
 
 ## Known issues
 
